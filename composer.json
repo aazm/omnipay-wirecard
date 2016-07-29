@@ -31,7 +31,7 @@
     },
     "require": {
         "omnipay/common": "~2.0",
-        "0x4a5k/omnipay-wirecard": "dev-master"
+        "0x4a5k/wirecard-php-api": "dev-master"
     },
     "require-dev": {
         "omnipay/tests": "~2.0"
