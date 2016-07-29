@@ -158,4 +158,16 @@ class Gateway extends AbstractGateway
 
         return $request;
     }
+
+    /**
+     * @param array $parameters
+     * @return RequestInterface
+     */
+    public function originalCredit(array $parameters = array())
+    {
+        $request = $this->createRequest('Omnipay\Wirecard\Message\OriginalCreditRequest', $parameters);
+        $request->setTransactionBuilder(new PaymentTransactionBuilder($request));
+
+        return $request;
+    }
 }
