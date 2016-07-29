@@ -1,5 +1,5 @@
 {
-    "name": "igaponov/omnipay-wirecard",
+    "name": "0x4a5d/omnipay-wirecard",
     "type": "library",
     "description": "Wirecard gateway for Omnipay payment processing library",
     "keywords": [
@@ -17,6 +17,10 @@
         {
             "name": "Gaponov Igor",
             "email": "jiminy96@gmail.com"
+        },
+        {
+            "name": "Kobyzev Alexander",
+            "email": "aleksander.kobyzev@gmail.com"
         }
     ],
     "autoload": {
