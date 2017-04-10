@@ -53,7 +53,7 @@ class GatewayIntegrationTest extends GatewayTestCase
 
     protected function getSerializerMock()
     {
-        $dir = __DIR__ . '/../vendor/igaponov/wirecard-php-api/src/Serializer/Metadata';
+        $dir = __DIR__ . '/../vendor/0x4a5k/wirecard-php-api/src/Serializer/Metadata';
 
         return SerializerBuilder::create()
             ->addMetadataDir($dir, 'Wirecard\Element')
