@@ -17,7 +17,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "igaponov/omnipay-wirecard": "dev-master"
+        "aazm/omnipay-wirecard": "dev-master"
     }
 }
 ```
